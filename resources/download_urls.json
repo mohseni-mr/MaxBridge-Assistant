@@ -12,5 +12,6 @@
       "name": "Modified Plugin Versions file",
       "url": "https://github.com/mohseni-mr/MaxBridge-Assistant/raw/refs/heads/main/modified/plugin_versions_12.json"
     }
-  ]
+  ],
+  "plugin_version": "5.5"
 }
