@@ -1,4 +1,4 @@
-# MaxBridge-Assistant
+# MaxBridge Assistant
 
 _Files and instructions for fixing Quixel Bridge connection with newer version of 3ds Max._
 
