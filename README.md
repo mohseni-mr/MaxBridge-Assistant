@@ -9,7 +9,7 @@ This project is licensed under the MIT License, granting full freedom to use, mo
 
 I hope Quixel will officially fix these problems soon and they are welcome to use my simple code in any way if they want to.
 
-> [Get in touch with me](https://bio.mohseni.info/)
+> [Get in touch with me](https://bio.mohseni.info/)<br><small>Mohammadreza Mohseni</small>
 
 ---
 
