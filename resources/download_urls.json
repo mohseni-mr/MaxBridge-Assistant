@@ -2,15 +2,18 @@
   "files": [
     {
       "name": "Original Bridge Plugin for 3ds Max",
-      "url": "https://quixel-megascans-static.s3.us-west-2.amazonaws.com/bridge/plugins_12/max/win/5.5.zip"
+      "url": "https://quixel-megascans-static.s3.us-west-2.amazonaws.com/bridge/plugins_12/max/win/5.5.zip",
+      "hash": "72c5c204de9c9d2dcda046ee47d996ff73b8b3993ba5c674c36462912dda82f8"
     },
     {
       "name": "Modified Main Script",
-      "url": "https://github.com/mohseni-mr/MaxBridge-Assistant/raw/refs/heads/main/modified/max/5.5/MSLiveLink/MS_API.py"
+      "url": "https://github.com/mohseni-mr/MaxBridge-Assistant/raw/refs/heads/main/modified/max/5.5/MSLiveLink/MS_API.py",
+      "hash": "2ea394b753e2a6a412783ffebcd95a2e9b057645e1d773788a79923f6f0107d3"
     },
     {
       "name": "Modified Plugin Versions file",
-      "url": "https://github.com/mohseni-mr/MaxBridge-Assistant/raw/refs/heads/main/modified/plugin_versions_12.json"
+      "url": "https://github.com/mohseni-mr/MaxBridge-Assistant/raw/refs/heads/main/modified/plugin_versions_12.json",
+      "hash": "3543bcec48e4bb964ef1eabc9cc45129856f3f9c0d7fd2bf1d0f489112b62279"
     }
   ],
   "plugin_version": "5.5"
