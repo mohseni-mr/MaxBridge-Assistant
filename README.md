@@ -71,9 +71,11 @@ You have two options to fix the issues:
 7. Wait for the app to download and replace the necessary files.
    <br>
 8. Reopen `"Quixel Bridge" & "3ds Max"` and continue your workflow as usual.
-<br>
+
 ![Screenshot for MaxBridge Assistant to fix issues of Quixel Bridge and 3dsMax connection](https://raw.githubusercontent.com/mohseni-mr/MaxBridge-Assistant/main/app/screenshot.png)
-<br>
+
+<small>*screenshot of the GUI*</small>
+
 
 ## [2. Manual Method](#manual)
 
