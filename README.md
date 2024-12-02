@@ -53,19 +53,26 @@ You have two options to fix the issues:
 1. Close `"Quixel Bridge" & "3ds Max"`
    <br>
 
-2. Download the app from release section of this repository.<br>[DOWNLOAD LINK]()
+2. Download the app from release section of this repository.<br>[DOWNLOAD LATEST VERSION](https://github.com/mohseni-mr/MaxBridge-Assistant/releases/latest/download/MaxBridge_Assistant.exe)
    <br>
 
 3. Run the app (portable, no installation needed).
    <br>
-
-4. Click `"Megascans Library Folder"` button and select your library folder
+   
+4. Check the the 3ds Max versions you want to connect to Quixel Bridge.
    <br>
+   
+5. Click `"Select Megascans Library"` button and select your library folder
+   <br><small>*must be exact match as you library in `Quixel Bridge` settings*</small><br>
 
-5. Wait for the app to download and replace the necessary files.
+6. Click "Start Setup"
    <br>
-6. Reopen `"Quixel Bridge" & "3ds Max"` and continue your workflow as usual.
-
+   
+7. Wait for the app to download and replace the necessary files.
+   <br>
+8. Reopen `"Quixel Bridge" & "3ds Max"` and continue your workflow as usual.
+<br>
+![screenshot for MaxBridge Assistant to fix issues of Quixel Bridge and 3dsMax connection](https://raw.githubusercontent.com/mohseni-mr/MaxBridge-Assistant/main/app/screenshot.png)
 <br>
 
 ## [2. Manual Method](#manual)
