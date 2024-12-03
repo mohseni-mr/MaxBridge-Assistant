@@ -311,6 +311,17 @@ class MaxBridgeAssistant(QWidget):
         except Exception as e:
             self.log_message(f"Error during library preparation: {e}")
 
+    def remove_quixel_files(self, directory):
+        # Remove all variations of the file "Quixel.ms" (case-insensitive) from the given directory.
+        try:
+            for file_name in os.listdir(directory):
+                if file_name.lower() == "quixel.ms":
+                    file_path = os.path.join(directory, file_name)
+                    os.remove(file_path)
+                    self.log_message(f"Removed: {file_path}")
+        except Exception as e:
+            self.log_message(f"Error removing files in {directory}: {e}")
+
     def create_quixel_files(self):
         if not self.megascans_library or not self.plugin_version:
             self.log_message("Error: Megascans Library or plugin version missing.")
@@ -319,6 +330,16 @@ class MaxBridgeAssistant(QWidget):
         base_dir = os.path.normpath(os.path.join(os.getenv("LOCALAPPDATA"), "Autodesk", "3dsMax"))
         selected_versions = [cb.text() for cb in self.checkboxes if cb.isChecked()]
 
+        # Step 1: Remove old Quixel.ms files
+        self.log_message("Cleaning up old Quixel.ms files...")
+        for version in os.listdir(base_dir):
+            version_path = os.path.normpath(os.path.join(base_dir, version))
+            for lang in os.listdir(version_path):
+                lang_path = os.path.normpath(os.path.join(version_path, lang, "scripts", "startup"))
+                self.remove_quixel_files(lang_path)
+
+        # Step 2: Create new Quixel.ms files for selected versions
+        self.log_message("Creating new Quixel.ms files...")
         for version in selected_versions:
             version_path = os.path.normpath(os.path.join(base_dir, version))
             if not os.path.exists(version_path):
