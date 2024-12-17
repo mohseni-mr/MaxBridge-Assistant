@@ -1,1 +1,4 @@
-
+PyQt6==6.8.0
+PyQt6_sip==13.9.1
+Requests==2.32.3
+nuitka==2.5.4
