@@ -72,7 +72,7 @@ You have two options to fix the issues:
    <br>
 8. Reopen `"Quixel Bridge" & "3ds Max"` and continue your workflow as usual.
 
-![Screenshot for MaxBridge Assistant to fix issues of Quixel Bridge and 3dsMax connection](https://raw.githubusercontent.com/mohseni-mr/MaxBridge-Assistant/main/app/screenshot.png)
+![Screenshot for MaxBridge Assistant to fix issues of Quixel Bridge and 3dsMax connection](https://raw.githubusercontent.com/mohseni-mr/MaxBridge-Assistant/main/app/screenshot-v2.png)
 
 <small>*screenshot of the GUI*</small>
 
