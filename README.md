@@ -55,7 +55,8 @@ You have two options to fix the issues:
 
 2. Download the app from release section of this repository.<br>[DOWNLOAD LATEST VERSION](https://github.com/mohseni-mr/MaxBridge-Assistant/releases/latest/download/MaxBridge_Assistant.exe)
    <br>
-
+   > Use v1.1 if you do not want your `%localappdata%` attributes to change, because from v2 the app remove system attribute from this folder so 3ds Max act as it should be.<br>download other from [release section](https://github.com/mohseni-mr/MaxBridge-Assistant/releases)<br><br>Windows 11 24h2 add system attributes to `%localappdata%` so many application restricted to access this folder like 3ds Max this make many scripts not to work as expected
+   <br>
 3. Run the app (portable, no installation needed).
    <br>
    
