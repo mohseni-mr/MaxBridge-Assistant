@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "name": "Modified Bridge Plugin for 3ds Max",
+      "url": "https://raw.githubusercontent.com/mohseni-mr/MaxBridge-Assistant/refs/heads/main/modified/56.zip",
+      "hash": "27bb425672dfdcb9bb45c21bed748e228a877f8e0383d972cf5d3edc04f2d428",
+      "destination": "support/plugins/max/{plugin_version}/plugin.zip"
+    },
+    {
+      "name": "Modified Plugin Versions file",
+      "url": "https://raw.githubusercontent.com/mohseni-mr/MaxBridge-Assistant/refs/heads/main/modified/plugin_versions_13.json",
+      "hash": "7a0e27c6dd084ce9a53f4d13c5881d71659716f75ad37e8e6de474b0b3747559",
+      "destination": "support/plugins/plugin_versions_13.json"
+    }
+  ],
+  "plugin_version": "5.6"
+}
